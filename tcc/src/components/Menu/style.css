@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+.listaLinks{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 100px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.navegacao{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9B815;
+}
+
+.linkNav{
+    text-decoration: none;
+    color: black;
+    font-family: "League Spartan", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.botaoAvaliar{
+    font-family: "League Spartan", sans-serif;
+    background-color: #1C2454;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 24px;
+    border: none;
+
+}
