@@ -7,8 +7,8 @@
 }
 
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 70px;
 }
 
 .navegacao{
@@ -30,12 +30,45 @@
 }
 
 .botaoAvaliar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "League Spartan", sans-serif;
+    font-size: 24px;
     background-color: #1C2454;
     color: white;
-    width: 100px;
-    height: 25px;
-    border-radius: 24px;
+    gap: 8px;
+    width: 115px;
+    height: 40px;
     border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
+.add{
+    width:12px;
+    height:12px;
+}
+
+.searchUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.lupaUser{
+    display: flex;
+    width: 100px;
+    gap: 20px;
+}
+
+.iconeLupa{
+    width: 28px;
+    height: 28px;
+}
+
+.iconeUsuario{
+    width: 28px;
+    height: 28px;
 }
