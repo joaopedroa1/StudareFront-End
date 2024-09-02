@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './style.css';
-import {FaPlus, FaUser, FaSearch} from 'react-icons/fa'
+import {FaPlus, FaUserAlt as FaUser, FaSearch} from 'react-icons/fa'
 import logo from '../../assets/logo.svg';
 export function Menu(){
     return(
@@ -15,7 +15,7 @@ export function Menu(){
                 <button className='botaoAvaliar'> Avalie <FaPlus className = 'add'/></button>
                 <div className='lupaUser'>
                     <FaSearch className='iconeLupa'/>
-                    <FaUser className='iconeUsuario'/>
+                    <Link to ='/cadastro'><FaUser className='iconeUsuario'/></Link>
                 </div>
             </div> 
         </nav>
