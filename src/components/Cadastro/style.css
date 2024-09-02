@@ -1,0 +1,90 @@
+.fundo{
+    background-color: #1C2454;
+}
+.introducao{
+    padding: 100px;
+    height: 20vh;
+}
+
+.invisivi{
+    height: 100px;
+    width: 100%;
+}
+
+.criarContaTexto{
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.insiraDadosTexto{
+    font-family: "League Spartan", sans-serif;    
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.estudanteEform{
+    display: flex;
+    justify-content: space-between;
+    width: 190vh;
+    height: 68.5vh;
+}
+
+.formularioCadastro{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #F9B815;
+    border-radius: 12px;
+    padding: 24px;
+    width: 450px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.preencher{
+    display: flex;
+    flex-direction: column;
+    height:350px;
+    justify-content: space-around;
+}
+
+
+.campo{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: #000;
+    height: 55px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 18px;
+    outline: none;
+    font-family: "League Spartan", sans-serif ;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+}
+
+::placeholder{
+    padding: 12px;
+    color: #000;
+}
+
+.botaoEnviar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    background-color: #1C2454;
+    color: white;
+    gap: 8px;
+    width: 305px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
