@@ -1,0 +1,51 @@
+/* src/components/Carousel/style.css */
+.carousel {
+    max-height: 1000px;
+    position: relative;
+    width: 150%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carousel-image{
+    height: 600px;
+    width: 1100px;
+    display: flex;
+    border-radius: 12px;
+}
+
+.carousel-image img {
+    height: 600px;
+    width: 1100px;
+    display: block;
+    border-radius: 12px;
+}
+
+
+.carousel-button {
+    background-color: white;
+    position: absolute;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.carousel-button.prev {
+    font-size: 600%;
+    justify-self: center;
+    color: #1C2454;
+    left: 10px;
+    margin: none;
+}
+
+.carousel-button.next {
+    font-size: 600%;
+    justify-self: center;
+    color: #1C2454;
+    right: 10px;
+    margin: none;
+}
