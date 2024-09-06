@@ -8,7 +8,7 @@ export function Menu(){
             <Link to = '/home'><img src = {logo} alt="logoStudare" className='logo'/></Link>
             <li className = 'listaLinks'>
                 <Link to = '/categorias' className='linkNav'>Categorias</Link>
-                <Link to = '/catalogar' className='linkNav' >Catalogue um curso</Link>
+                <Link to = '/catalogar' className='linkNav' >Encontre um curso</Link>
                 <Link to = '/sobre' className='linkNav'>Sobre</Link>
             </li>
             <div className='searchUser'>
