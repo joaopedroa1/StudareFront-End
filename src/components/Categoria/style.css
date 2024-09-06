@@ -1,0 +1,28 @@
+.categoriaCaixa{
+    color: #1C2454;
+    border: none;
+    padding: 16px;
+    background-color: #E9E9E9;
+    width: 300px;
+    height: 290px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+*{
+    transition: all 0.175s;
+}
+
+.textoCategoria{
+    font-family: "League Spartan", sans-serif;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.categoriaCaixa:hover{
+    color: #F9B815;
+    background-color: #1C2454;
+}
