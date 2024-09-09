@@ -1,10 +1,10 @@
 import './style.css'
-import estudante from '../../assets/estudante.svg'
+import estudante from '../../assets/estudante.png.png'
 import { Link } from 'react-router-dom';
 
 export const Cadastro = () =>{
     return(
-        <>
+        <body>
        <div className='fundo'>
        <div className = 'invisivi'></div>
         <div className="introducao">
@@ -12,7 +12,7 @@ export const Cadastro = () =>{
             <h1 className='insiraDadosTexto'>Insira os seus dados:</h1>
         </div>
         <div className='estudanteEform'>
-            <img src={ estudante } alt="" />
+            <img className='estudante' src={ estudante } alt="" />
             <div className='formElogin'>
             <div className='formularioCadastro'>
                 <form className='preencher' action="">
@@ -27,6 +27,6 @@ export const Cadastro = () =>{
             </div>
         </div>
        </div>
-        </>
+        </body>
     )
 }

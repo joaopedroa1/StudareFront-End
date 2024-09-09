@@ -1,8 +1,15 @@
+*{
+    transition: 0.125s;
+}
+
+
+
 .fundo{
     background-color: #1C2454;
     height: 100%;
     width: 100%;
 }
+
 .introducao{
     padding: 2.6%;
     height: 5%;
@@ -40,6 +47,7 @@
     font-weight:400;
     text-decoration: none;
     font-size: 180%;
+    padding-top: 16px;
 }
 
 .insiraDadosTexto{
@@ -49,20 +57,25 @@
     font-size: 350%;
 }
 
+.estudante{
+    width: 34vw;
+    height: 34vw;
+}
+
 .estudanteEform{
     display: flex;
     justify-content: space-between;
-    width: 190vh;
-    height: 68.5vh;
+    width: 90%;
+    height: 100%;
 }
 
 .formularioCadastro{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #F9B815;
     border-radius: 12px;
-    padding: 24px;
-    width: 450px;
-    height: 420px;
+    padding: 1vw;
+    width: 23vw;
+    height: 22vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +85,7 @@
 .preencher{
     display: flex;
     flex-direction: column;
-    height:350px;
+    height:16vw;
     justify-content: space-around;
 }
 
@@ -82,7 +95,7 @@
     box-shadow: #000;
     padding: 24px;
     height: 55px;
-    width: 350px;
+    width: 18.5vw;
     text-decoration: none;
     font-size: 18px;
     outline: none;
@@ -106,20 +119,15 @@
     background-color: #1C2454;
     color: white;
     gap: 8px;
-    width: 350px;
-    height: 60px;
+    width: 18.5vw;
+    height: 3vw;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
-@keyframes aumento{
-    from{width: 350px; height:60px}
-    to{width: 360px; height: 70px;}
-}
 
 .botaoEnviar:hover{
-    animation-name:aumento ;
-    animation-duration: 0.25s;
-    animation-fill-mode: forwards;
+    width: 19vw;
+    height: 3.2vw;
 }
