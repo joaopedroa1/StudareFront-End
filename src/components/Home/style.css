@@ -11,7 +11,7 @@
 .boasVindas{
     font-family: "League Spartan", sans-serif;
     color: #1C2454;
-    font-size: 4.30493vw;
+    font-size: 48px;
 }
 
 * {box-sizing:border-box}
@@ -131,7 +131,7 @@
 
 .textoEstilo1{
   font-family: "League Spartan", sans-serif;
-  font-size: 4.30493vw;
+  font-size: 56px;
   color: #1C2454;
   padding-top: 1%;
   padding-bottom: 1.5%;
