@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 .listaLinks{
-    height: 52.700922266139657444005270092227%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     list-style: none;
     text-decoration: none;
     gap: 100px;
 }
 
 .logo{
-    width: 120%;
-    height: 80%;
+    width: 150%;
+    height: 100%;
 }
 
 .navegacao{
@@ -25,17 +22,11 @@
     background-color: #F9B815;
 }
 
-@media screen and (max-width: 1366px) {
-    .listaLinks{
-        gap: 50px;
-    }
-}
-
 .linkNav{
     text-decoration: none;
     color: black;
     font-family: "League Spartan", sans-serif;
-    font-size: 165%;
+    font-size: 175%;
     font-weight: 600;
 }
 
@@ -47,8 +38,9 @@
     font-size: 150%;
     background-color: #1C2454;
     color: white;
+    gap: 8px;
     width: 40%;
-    height: 30px;
+    height: 40px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -66,9 +58,8 @@
 
 .searchUser{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-    height: 40px;
     width: 18%;
 }
 
@@ -93,11 +84,11 @@
 }
 
 .iconeLupa{
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
 .iconeUsuario{
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
