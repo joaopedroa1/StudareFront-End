@@ -1,10 +1,10 @@
 .categoriaCaixa{
     color: #1C2454;
     border: none;
-    padding: 1.69%;
+    padding: 16px;
     background-color: #E9E9E9;
     width: 300px;
-    height: 23vw;
+    height: 290px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
 
 .textoCategoria{
     font-family: "League Spartan", sans-serif;
-    font-size: 2vw;
+    font-size: 200%;
     font-weight: 700;
 }
 
