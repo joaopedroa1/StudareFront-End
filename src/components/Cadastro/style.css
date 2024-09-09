@@ -1,12 +1,7 @@
-*{
-    transition: 0.15s;
-}
-
-
 .fundo{
-    fill: #1C2454;
     background-color: #1C2454;
-    width: 98.73vw;
+    height: 100%;
+    width: 100%;
 }
 .introducao{
     padding: 2.6%;
@@ -36,13 +31,12 @@
     font-family: "League Spartan", sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 360%;
 }
 
 .verificaLogin{
     font-family: "League Spartan", sans-serif;
     color: white;
-    padding-top: 10px;
     font-weight:400;
     text-decoration: none;
     font-size: 180%;
@@ -52,11 +46,7 @@
     font-family: "League Spartan", sans-serif;    
     color: white;
     font-weight: 150;
-    font-size: 3.8vw;
-}
-
-.estudante{
-    width: 38vw;
+    font-size: 350%;
 }
 
 .estudanteEform{
@@ -70,9 +60,9 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #F9B815;
     border-radius: 12px;
-    padding: 1vw;
-    width: 30vw;
-    height: 29vw;
+    padding: 24px;
+    width: 450px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,8 +81,8 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-shadow: #000;
     padding: 24px;
-    height: 4vw;
-    width: 25vw;
+    height: 55px;
+    width: 350px;
     text-decoration: none;
     font-size: 18px;
     outline: none;
@@ -116,15 +106,20 @@
     background-color: #1C2454;
     color: white;
     gap: 8px;
-    width: 25vw;
-    height: 4.25vw;
+    width: 350px;
+    height: 60px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
+@keyframes aumento{
+    from{width: 350px; height:60px}
+    to{width: 360px; height: 70px;}
+}
 
 .botaoEnviar:hover{
-    width: 25.5vw;
-    height: 4.6vw;
+    animation-name:aumento ;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
 }
