@@ -39,7 +39,7 @@ export const Home = () =>{
                 <h1 className="textoEstilo1">Categorias</h1>
             </div>
             <div className='categoriaLista'>
-                <Categoria icon={<BsWindowDash size={100}/>} text={'Desenvolvimento'}/>
+                <Categoria icon={<BsWindowDash size={100}/>} text={'Programação'}/>
                 <Categoria icon={<FaChartBar size={100}/>} text={'Marketing'}/>
                 <Categoria icon={<PiMagicWand size={100}/>} text={'Design'}/>
                 <Categoria icon={<GiGraduateCap size={100}/>} text={'Vestibular'}/>
@@ -47,7 +47,7 @@ export const Home = () =>{
             <div className='categoriaLista paddingUp'>
                 <Categoria icon={<GiPayMoney size={100}/>} text={'Economia'}/>
                 <Categoria icon={<FaFileVideo size={100}/>} text={'Edição de vídeo'}/>
-                <Categoria icon={<SiAdobephotoshop size={100}/>} text={'Edição de imagem'}/>
+                <Categoria icon={<SiAdobephotoshop size={100}/>} text={'Edição de foto'}/>
                 <Categoria icon={<PiCookingPot size={100}/>} text={'Culinária'}/>
             </div>
         </div>
