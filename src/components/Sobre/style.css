@@ -1,8 +1,11 @@
 .positivas{
     background-color: #1C2454;
-    padding: 56px;
     width: 100vw;
-    height: 35vw;
+    height: 30vw;
+}
+
+.sobre{
+    padding: 56px;
 }
 
 .texto1Branco{
@@ -11,9 +14,28 @@
     font-size: 2.5vw;
 }
 
+.soAqui{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mulherSobre{
+    height: 38vw;
+    width: 30vw;
+}
 
 .cursosDestaque{
     width: 95vw;
     height: 20vw;
-    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textoSoAqui{
+    padding-top: 0.8vw;
+    font-size: 36px;
+    color: #1C2454;
+    font-family: "League Spartan", sans-serif;
 }
