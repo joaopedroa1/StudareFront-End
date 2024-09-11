@@ -1,0 +1,19 @@
+.positivas{
+    background-color: #1C2454;
+    padding: 56px;
+    width: 100vw;
+    height: 35vw;
+}
+
+.texto1Branco{
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 2.5vw;
+}
+
+
+.cursosDestaque{
+    width: 95vw;
+    height: 20vw;
+    background-color: white;
+}

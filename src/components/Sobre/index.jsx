@@ -1,4 +1,5 @@
 import './style.css'
+import { CursoDestaque } from '../CursoDestaque'
 
 export const About = () => {
     return(
@@ -8,6 +9,9 @@ export const About = () => {
             <h1 className="texto1Branco">
                 Destaques
             </h1>
+            <div className="cursosDestaque">
+                <CursoDestaque></CursoDestaque>
+            </div>
         </div>
         </>
     )
