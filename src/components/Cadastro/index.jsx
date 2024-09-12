@@ -1,4 +1,4 @@
-import './style.css'
+import '../Cadastro/style.css'
 import estudante from '../../assets/estudante.png.png'
 import { Link } from 'react-router-dom';
 

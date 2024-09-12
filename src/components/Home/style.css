@@ -121,6 +121,10 @@
     height: 200px;
 }
 
+.leagueSpartan{
+  font-family: "League Spartan", sans-serif;
+}
+
 .carrocel{
     display: flex;
     align-items: center;
