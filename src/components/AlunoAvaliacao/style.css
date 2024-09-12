@@ -1,0 +1,30 @@
+.fundoAvaliacaoAluno{
+    background-color: #F9B815;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 20vw;
+    padding: .5vw;
+}
+.imgAlunoAvaliacao{
+    height: 8vw;
+}
+
+.textoAvaliacaoAluno{
+    padding-top: .8vw;
+    font-size: 1.35vw;
+    width: 15vw;
+    align-self: center;
+    text-align: center;
+}
+
+
+.avaliacaoBoa{
+    padding-top: .5vw;
+    font-size: 1vw;
+    font-weight: 800;
+    color: #0A770E;
+}
