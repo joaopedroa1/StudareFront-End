@@ -4,8 +4,12 @@
     height: 30vw;
 }
 
-.sobre{
-    padding: 56px;
+.padding112{
+    padding: 112px;
+}
+
+.maior{
+    font-size: 64px;
 }
 
 .texto1Branco{
@@ -15,14 +19,16 @@
 }
 
 .soAqui{
-    width: 75vw;
+    padding: 112px;
+    padding-bottom: 0;
+    width: 80vw;
     display: flex;
     justify-content: space-between;
 }
 
 .mulherSobre{
-    height: 38vw;
-    width: 30vw;
+    height: 44vw;
+    width: 36vw;
 }
 
 .cursosDestaque{
@@ -34,8 +40,8 @@
 }
 
 .textoSoAqui{
-    padding-top: 0.8vw;
-    font-size: 36px;
+    padding-top: 2vw;
+    font-size: 48px;
     color: #1C2454;
     font-family: "League Spartan", sans-serif;
 }
