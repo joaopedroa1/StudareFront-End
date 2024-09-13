@@ -13,6 +13,10 @@
     height: 8vw;
 }
 
+.nomeAvaliacaoAluno{
+    font-size: 1.35vw;
+}
+
 .textoAvaliacaoAluno{
     padding-top: .8vw;
     font-size: 1.35vw;

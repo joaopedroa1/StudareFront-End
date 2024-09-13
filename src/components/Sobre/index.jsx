@@ -8,7 +8,9 @@ export const About = () => {
     return(
         <section className='sobre'>
         <div className="invisivi"></div>
-        <div className="positivas"></div>
+        <div className="positivas">
+            <h1 className="texto1Branco">Destaques</h1>
+        </div>
         <div className="soAqui">
             <hgroup className='textoSoAqui'>
                 <h1 className="textoEstilo1 maior">Só aqui você encontra</h1>

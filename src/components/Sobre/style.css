@@ -2,6 +2,7 @@
     background-color: #1C2454;
     width: 100vw;
     height: 30vw;
+    padding: 4vw;
 }
 
 .padding112{
@@ -21,7 +22,7 @@
 .soAqui{
     padding: 112px;
     padding-bottom: 0;
-    width: 80vw;
+    width: 85vw;
     display: flex;
     justify-content: space-between;
 }
