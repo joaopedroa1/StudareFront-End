@@ -7,3 +7,26 @@
     font-size: 22px;
 }
 
+.cursoDestaqueFoto{
+    width: 20vw;
+}
+
+.titulo{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.textoInfo{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+
+.orgazinazcaoCursosDestaque{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vw;
+    height: 23vw;
+    justify-content: space-between;
+    align-items: center;
+}

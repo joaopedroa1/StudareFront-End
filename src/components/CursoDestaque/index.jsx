@@ -5,15 +5,11 @@ import './style.css'
 
 export const CursoDestaque = ({imagemCurso, cursoTipo, professorCurso}) => {
     return (
-        <>
         <div className="orgazinazcaoCursosDestaque">
-            <div className="cursoDestaqueFoto">
-                {imagemCurso}
-            </div>
-            <p className='destaquesTexto'>{cursoTipo}</p>
-            <p className='destaquesTexto'>{professorCurso}</p>
+            <img className='cursoDestaqueFoto' src={imagemCurso} alt="" />
+            <p className='destaquesTexto titulo'>{cursoTipo}</p>
+            <p className='destaquesTexto textoInfo'>{professorCurso}</p>
         </div>
-        </>
     )
 }
 
