@@ -3,13 +3,19 @@ import santana from '../../assets/santana.png'
 import { FaCheck } from "react-icons/fa";
 import mulherSobre from '../../assets/mulherSobre.png'
 import { AvaliacaoAluno } from '../AlunoAvaliacao';
-
+import { CursoDestaque } from '../CursoDestaque';
+import fotoReact from '../../assets/fotoReact.png'
 export const About = () => {
     return(
         <section className='sobre'>
         <div className="invisivi"></div>
         <div className="positivas">
             <h1 className="texto1Branco">Destaques</h1>
+            <div className="organizacaoCursosEmDestaque">
+            <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
+            <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
+            <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
+            </div>
         </div>
         <div className="soAqui">
             <hgroup className='textoSoAqui'>
@@ -28,7 +34,10 @@ export const About = () => {
             <h1 className="textoEstilo1">Avaliação dos nossos alunos</h1>
             <div className='avaliacoesAlunos'>
             <AvaliacaoAluno imagemAlunoAvAliacao={santana} nomeAlunoAvaliacao={'Gustavo Santana'} textoAlunoAvaliacao={'Passei no vestibular da FUVEST graças a vocês, obrigado!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
-        </div>
+            <AvaliacaoAluno imagemAlunoAvAliacao={santana} nomeAlunoAvaliacao={'Gustavo Santana'} textoAlunoAvaliacao={'Passei no vestibular da FUVEST graças a vocês, obrigado!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
+            <AvaliacaoAluno imagemAlunoAvAliacao={santana} nomeAlunoAvaliacao={'Gustavo Santana'} textoAlunoAvaliacao={'Passei no vestibular da FUVEST graças a vocês, obrigado!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
+            <AvaliacaoAluno imagemAlunoAvAliacao={santana} nomeAlunoAvaliacao={'Gustavo Santana'} textoAlunoAvaliacao={'Passei no vestibular da FUVEST graças a vocês, obrigado!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
+            </div>
         </div>
 
         </section>

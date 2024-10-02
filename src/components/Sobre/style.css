@@ -1,12 +1,20 @@
 .positivas{
     background-color: #1C2454;
     width: 100vw;
+
     height: 30vw;
     padding: 4vw;
+    padding-bottom: 4vw;
 }
 
 .padding112{
     padding: 112px;
+}
+
+.organizacaoCursosEmDestaque{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .maior{
@@ -14,9 +22,12 @@
 }
 
 .texto1Branco{
+    align-items: center;
+    align-self: center;
     color: white;
     font-family: "League Spartan", sans-serif;
     font-size: 2.5vw;
+    height: 0;
 }
 
 .soAqui{
@@ -45,4 +56,10 @@
     font-size: 48px;
     color: #1C2454;
     font-family: "League Spartan", sans-serif;
+}
+
+.avaliacoesAlunos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
