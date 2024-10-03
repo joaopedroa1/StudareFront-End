@@ -1,0 +1,36 @@
+*{
+    transition: 0.2s;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 18vw;
+    height: 32vw;
+    border-radius: 24px;
+    justify-content: center;
+    border: 5px;
+    border-style: solid;
+}
+
+.card:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.textoCartao{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 16vw;
+}
+

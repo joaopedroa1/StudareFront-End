@@ -1,0 +1,37 @@
+*{
+    transition: 0.2s;
+}
+
+.cardBranco{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 18vw;
+    height: 32vw;
+    border: solid;
+    border-style: 2px;
+    border-color: black;
+    border-radius: 24px;
+    justify-content: center;
+}
+
+.cardBranco:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.textoCartaoBranco{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.cardInfoBranco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 16vw;
+}
+
