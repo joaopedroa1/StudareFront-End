@@ -62,4 +62,20 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 36px;
+}
+
+.vantagens{
+    padding-left: 112px;
+    padding-top: 8px;
+}
+
+.cartas{
+    padding-top: 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cartasOrganizacao{
+    display: flex;
 }
