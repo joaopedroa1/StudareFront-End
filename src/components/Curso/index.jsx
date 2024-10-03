@@ -1,7 +1,7 @@
 import './style.css'
 
 let imagem;
-let texto ='Nois come bosta';
+let texto ='Curso react';
 let professor = "Prof. Lucas";
 let analises = "Muito positivas";
 
