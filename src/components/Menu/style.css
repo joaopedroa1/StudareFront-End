@@ -3,14 +3,16 @@
     display: flex;
     list-style: none;
     text-decoration: none;
-    gap: 100px;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+
 }
 
 .logo{
     width: 150%;
     height: 100%;
 }
-
 
 .navegacao{
     z-index: 999;
@@ -30,6 +32,7 @@
     font-size: 175%;
     font-weight: 600;
 }
+
 
 .botaoAvaliar{
     display: flex;
@@ -79,6 +82,8 @@
 }
 
 .lupaUser{
+    align-items: center;
+    justify-content: flex-end;
     display: flex;
     width: 40%;
     gap: 20px;
