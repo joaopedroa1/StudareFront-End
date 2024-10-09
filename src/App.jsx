@@ -5,6 +5,7 @@ import { Cadastro } from './components/Cadastro'
 import './App.css'
 import { About } from './components/Sobre'
 
+
 export function App() {
   return (
     <>

@@ -30,6 +30,18 @@
     height: 0;
 }
 
+.textoBrancoTitulo{
+    color: white;
+    font-size: 4vw;
+    font-family: "League Spartan", sans-serif;
+}
+
+.textoBrancoPequeno{
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 2.2vw;
+}
+
 .soAqui{
     padding: 112px;
     padding-bottom: 0;
@@ -66,8 +78,11 @@
 }
 
 .vantagens{
-    padding-left: 112px;
     padding-top: 8px;
+}
+
+.paddingleft112{
+    padding-left: 112px;
 }
 
 .cartas{
@@ -78,4 +93,85 @@
 
 .cartasOrganizacao{
     display: flex;
+    justify-content: space-between;
+    width: 70vw;
+
+}
+
+.sobreNosOrganizacao{
+    padding-top: 1.5vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.fotoPessoas{
+    width: 50vw;
+    height: 50vw;
+    grid-column: 1 1;
+}
+
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+    background-color: #1C2454;
+    grid-column: 2 2; 
+}
+
+.computadoresEquipe{
+    height: 100%;
+    width: 100%;
+}
+
+.textoFormatacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    height: 38vw;
+}
+
+.frequenteOrganizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 1;
+}
+
+.duvidasFrequentesOrganizacao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.acordes{
+    width: 100%;
+}
+
+.duvidasFrequentesFormatacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 30%;
+}
+
+.computador{
+    height: 100%;
+    width: 100%;
+}
+
+.textoAzulTitulo{
+    color: #1C2454;
+    font-family: "League Spartan", sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.fotoComputadores{
+    grid-column: 2 2;
 }
