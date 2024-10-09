@@ -1,4 +1,6 @@
 import '../Sobre/style.css'
+import computadores from '../../assets/computadores.png'
+import computador from '../../assets/computador.png'
 import santana from '../../assets/santana.png'
 import { FaCheck } from "react-icons/fa";
 import mulherSobre from '../../assets/mulherSobre.png'
@@ -14,7 +16,7 @@ import { CartaoAmarelo } from '../CartaoAmarelo'
 import { GiGraduateCap } from "react-icons/gi";
 import { CartaoBranco } from '../CartaoBranco'
 import { SlBadge } from "react-icons/sl";
-
+import{Duvidas} from '../Duvidas'
 export const About = () => {
     return(
         <section className='sobre'>
@@ -50,7 +52,7 @@ export const About = () => {
             </div>
         </div>
         <div className="vantagens">
-            <h1 className="textoEstilo1">Vantagens do nosso serviço</h1>
+            <h1 className="textoEstilo1 paddingleft112">Vantagens do nosso serviço</h1>
             <div className="cartas">
                 <div className="cartasOrganizacao">
                 <Cartao icon={<LuBrush size = {140}></LuBrush>} textoCartao={'Educação'}/>
@@ -59,6 +61,38 @@ export const About = () => {
                 </div>
             </div>
         </div>
+        <div className="sobreNosOrganizacao">
+            <div className='fotoPessoas'>
+                <img className='computadoresEquipe' src={computadores} alt="Computadores" />
+            </div>
+            <div className='sobreNos'>
+                <div className="textoFormatacao">
+                    <h1 className="textoBrancoTitulo">Sobre nós</h1>
+                    <p className="textoBrancoPequeno">A Studare é uma plataforma inovadora que oferece um fórum para estudantes se prepararem para vestibulares. Por meio do nosso espaço colaborativo, alunos podem trocar dicas, esclarecer dúvidas e compartilhar estratégias eficazes de estudo.</p>
+                    <p><br /></p>
+                    <p className="textoBrancoPequeno">Além disso, disponibilizamos simulados e materiais de revisão para aprimorar a preparação dos usuários. Nosso objetivo é não apenas melhorar as notas, mas também aumentar a confiança e a motivação dos estudantes para enfrentar os desafios acadêmicos.</p>
+                </div>
+            </div>
+        </div>
+        <div className="duvidasFrequentesOrganizacao">
+            <div className="frequenteOrganizacao">
+                <div className="duvidasFrequentesFormatacao">
+                    <h1 className="textoAzulTitulo">Dúvidas Frequentes</h1>
+                    <div className="acordes">
+                        <Duvidas></Duvidas>
+                    </div>
+                </div>
+            </div>
+            <div className="fotoComputadores">
+                <img src={computador} alt="" className="computador" />
+            </div>
+        </div>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+        crossOrigin="anonymous"
+        />
         </section>
     )
 }
