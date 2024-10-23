@@ -1,10 +1,22 @@
+*{
+    text-decoration: none;
+
+}
+
 .positivas{
     background-color: #1C2454;
     width: 100vw;
-
     height: 30vw;
     padding: 4vw;
     padding-bottom: 4vw;
+}
+
+a:hover{
+    color: black;
+}
+
+a{
+    padding: 0;
 }
 
 .padding112{
