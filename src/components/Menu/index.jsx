@@ -6,11 +6,13 @@ export function Menu(){
     return(
         <nav className='navegacao'>
             <Link to = '/home'><img src = {logo} alt="logoStudare" className='logo'/></Link>
+            <div className="centralizadorLista">
             <li className = 'listaLinks'>
-                <Link to = '/categorias' className='linkNav'>Categorias </Link>
-                <Link to = '/catalogar' className='linkNav' >Encontrar</Link>
-                <Link to = '/sobre' className='linkNav'>Sobre</Link>
+                <Link to = '/categorias' className='linkNavbar'>Categorias </Link>
+                <Link to = '/encontrar' className='linkNavbar' >Encontrar</Link>
+                <Link to = '/sobre' className='linkNavbar'>Sobre</Link>
             </li>
+            </div>
             <div className='searchUser'>
                 <div className='lupaUser'>
                     <FaSearch className='iconeLupa'/>

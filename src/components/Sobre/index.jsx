@@ -1,4 +1,5 @@
 import '../Sobre/style.css'
+
 import computadores from '../../assets/computadores.png'
 import computador from '../../assets/computador.png'
 import santana from '../../assets/santana.png'
@@ -87,12 +88,6 @@ export const About = () => {
                 <img src={computador} alt="" className="computador" />
             </div>
         </div>
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-        crossOrigin="anonymous"
-        />
         </section>
     )
 }
