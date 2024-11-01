@@ -1,11 +1,11 @@
 .encontrar{
-    padding: 1.4vw;
+    padding: 2vw;
     display: flex;
     justify-content: center;
 }
 
 .acharCurso{
-    width: 75vw;
+    width: 70vw;
     text-align: center;
     height: 3vw;
     border-radius: 12px;
@@ -18,3 +18,26 @@
     color: black;
     opacity: 0.3;
   }
+
+.filtros{
+    color: #1C2454;
+  }
+
+    .encontrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.filtroECursos{
+  padding-top: 24px;
+    width: 90vw;
+    height: 60vw;
+}
+
+.textoFiltros{
+  font-family: "League Spartan", sans-serif;
+  color: #1C2454;
+  font-weight: 650;
+  font-size: 2.5vw;
+}
