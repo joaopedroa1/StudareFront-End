@@ -85,7 +85,7 @@ export const About = () => {
                 </div>
             </div>
             <div className="fotoComputadores">
-                <img src={computador} alt="" className="computador" />
+                <img src={computador} alt="" className="computador"/>
             </div>
         </div>
         </section>
