@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-.listaLinks{
+.listaLinksStatic{
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.centralizadorLista{
+.centralizadorListaStatic{
     width: 50vw;
     display: flex;
     align-items: center;
@@ -17,14 +17,13 @@
 }
 
 
-.logo{
+.logoStatic{
     width: 150%;
     height: 100%;
 }
 
-.navegacao{
-    z-index: 999;
-    position: fixed;
+.navegacaoStatic{
+    position: static;
     display: flex;
     width: 100%;
     height: 12vh;
@@ -33,7 +32,7 @@
     background-color: #F9B815;
 }
 
-.linkNavbar{
+.linkNavbarStatic{
     text-decoration: none;
     color: black;
     font-family: "League Spartan", sans-serif;
@@ -44,7 +43,7 @@
 
 
 
-.botaoAvaliar{
+.botaoAvaliarStatic{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,24 +59,24 @@
     cursor: pointer;
 }
 
-.iconeUsuario{
+.iconeUsuarioStatic{
     color: black;
     
 }
 
-.add{
+.addStatic{
     width:20%;
     height:40%;
 }
 
-.searchUser{
+.searchUserStatic{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 18%;
 }
 
-.linkNavbar::after{
+.linkNavbarStatic::after{
     content: "";
     display: block;
     width: 100%;
@@ -87,11 +86,11 @@
     transform: scaleX(0);
 }
 
-.linkNavbar:hover::after{
+.linkNavbarStatic:hover::after{
     transform: scaleX(1);
 }
 
-.lupaUser{
+.lupaUserStatic{
     align-items: center;
     justify-content: flex-end;
     display: flex;
@@ -99,12 +98,12 @@
     gap: 20px;
 }
 
-.iconeLupa{
+.iconeLupaStatic{
     width: 28px;
     height: 28px;
 }
 
-.iconeUsuario{
+.iconeUsuarioStatic{
     width: 28px;
     height: 28px;
 }

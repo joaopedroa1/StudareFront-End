@@ -1,9 +1,11 @@
 import './style.css'
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Menu } from '../Menu';
 
 export const Encontrar = () =>{
     return(
         <>
+        <Menu></Menu>
         <div className="invisivi"></div>
         <div className="encontrar">
             <form action="">

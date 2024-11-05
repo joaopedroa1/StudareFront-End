@@ -1,5 +1,6 @@
 import { Carousel } from '../Carrocel';
 import './style.css';
+import { Menu } from '../Menu';
 import aluna from '../../assets/aluna.png'
 import aluno from '../../assets/aluno.png'
 import vest from '../../assets/vest.png'
@@ -23,6 +24,7 @@ export const Home = () =>{
     ]
     return (
         <>
+        <Menu></Menu>
         <div className = 'invisivi'></div>
         <div className="homePage">
         <h1 className='boasVindas'>Bem-Vindo ao Studare</h1>

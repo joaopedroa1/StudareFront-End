@@ -3,6 +3,7 @@ import '../Sobre/style.css'
 import computadores from '../../assets/computadores.png'
 import computador from '../../assets/computador.png'
 import santana from '../../assets/santana.png'
+import { Menu } from '../Menu'
 import { FaCheck } from "react-icons/fa";
 import mulherSobre from '../../assets/mulherSobre.png'
 import { AvaliacaoAluno } from '../AlunoAvaliacao';
@@ -20,6 +21,8 @@ import { SlBadge } from "react-icons/sl";
 import{Duvidas} from '../Duvidas'
 export const About = () => {
     return(
+        <>
+        <Menu></Menu>
         <section className='sobre'>
         <div className="invisivi"></div>
         <div className="positivas">
@@ -89,5 +92,6 @@ export const About = () => {
             </div>
         </div>
         </section>
+    </>
     )
 }

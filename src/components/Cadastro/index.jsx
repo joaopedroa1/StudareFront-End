@@ -1,12 +1,14 @@
 import '../Cadastro/style.css'
 import estudante from '../../assets/estudante.png.png'
 import { Link } from 'react-router-dom';
+import { MenuFixo } from '../MenuFixo';
 
 export const Cadastro = () =>{
     return(
+        <>
+        <MenuFixo></MenuFixo>
         <body>
        <div className='fundo'>
-       <div className = 'invisivi'></div>
         <div className="introducao">
             <h1 className='criarContaTexto'>Crie sua conta</h1>
             <h1 className='insiraDadosTexto'>Insira os seus dados:</h1>
@@ -28,5 +30,6 @@ export const Cadastro = () =>{
         </div>
        </div>
         </body>
+    </>
     )
 }
