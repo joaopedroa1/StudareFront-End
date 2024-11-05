@@ -1,0 +1,11 @@
+.textoColuna{
+    font-size: 1.7vw;
+    color: white;
+    font-weight: 200;
+    font-family: "League Spartan", sans-serif;
+}
+
+.professorOrganizacaoColuna{
+    display: flex;
+    flex-direction: column;
+}
