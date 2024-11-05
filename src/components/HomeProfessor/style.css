@@ -1,16 +1,69 @@
 .professorHomeGrid{
+
     display: grid;
     grid-template-columns: 25% 75%;
 
 }
 
+.textoELinha{
+    display: flex;
+    flex-direction: column;
+}
+
 .lateralProfessor{
-    padding: 1vw;
+    padding: .5vw;
     grid-column: 1 1;
     width: 100%;
-    height: 44.2vw;
+    height: 88vh;
     background-color: #1C2454;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.corpoProfessor{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfilProfessor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emailProfessor{
+    color: white;
+    font-size: 1.5vw;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+}
+
+.nomeProfessor{
+    color: white;
+    font-size: 1.75vw;
+    font-weight: 700;
+    font-family: "League Spartan", sans-serif;
+}
+
+.professorFoto{
+    width: 10vw;
+    border-radius: 360px;
+}
+
+.dia{
+    padding: 3vw;
+    font-size: 3.6vw;
+    font-weight: 600;
+    color: #1C2454;
+    font-family: "League Spartan", sans-serif;
+}
+
+.linha{
+    display: flex;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 2px;
 }
