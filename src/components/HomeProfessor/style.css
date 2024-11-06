@@ -67,3 +67,54 @@
     width: 100%;
     height: 2px;
 }
+
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    justify-content: center;
+}
+
+.avaliacaoTexto{
+    color: #1C2454;
+    font-size: 2vw;
+    font-family: "League Spartan", sans-serif;
+    background-color: #E9E9E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    width: 100%;
+}
+
+.quadradosInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.linhaQuadrados{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.avaliacaoTextoDois{
+    color: #1C2454;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+}
+
+.quadradoInfoNum{
+    display:flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+    background-color: #E9E9E9;
+}

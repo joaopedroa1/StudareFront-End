@@ -45,7 +45,25 @@ export const HomeProfessor = () =>{
                 <div className='info'>
                     <div className="quadradosInfo">
                         <div className="classificacaoProfessor">
-                            <h1 className="avaliacaoTexto">Sua avaliação está Positiva professor!</h1>
+                            <h1 className="avaliacaoTexto">Sua classificação está Positiva professor!</h1>
+                        </div>
+                        <div className="quadradosInfo">
+                            <div className="linhaQuadrados">
+                                <div className="quadradoInfoNum">
+                                    <h1 className="avaliacaoTextoDois">18 Cursos adicionados</h1>
+                                </div>
+                                <div className="quadradoInfoNum">
+                                    <h1 className="avaliacaoTextoDois">20 avaliações</h1>
+                                </div>
+                            </div>
+                            <div className="linhaQuadrados">
+                                <div className="quadradoInfoNum">
+                                    <h1 className="avaliacaoTextoDois">12 Cursos favoritados</h1>
+                                </div>
+                                <div className="quadradoInfoNum">
+                                    <h1 className="avaliacaoTextoDois">2 Rascunhos</h1>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
