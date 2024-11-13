@@ -12,12 +12,12 @@ export const ProfessorColuna = () =>{
         <>
             <div className="professorOrganizacaoColuna">
                 <h1 className="textoColuna">Professor</h1>
-                <Link className="textoColuna"><TbHomeFilled size={23}></TbHomeFilled> Home</Link>
-                <Link className="textoColuna"><FaTasks size={23}></FaTasks> Meus Cursos</Link>
-                <Link className="textoColuna"><IoAddCircleOutline size={23}></IoAddCircleOutline> Adicionar Curso</Link>
-                <Link className="textoColuna"><FaBook size={23}></FaBook> Editar Curso</Link>
-                <Link className="textoColuna"><FaHeartCircleCheck size={23}></FaHeartCircleCheck> Avaliações do Curso</Link>
-                <Link className="textoColuna"><FaTrashAlt size={23}></FaTrashAlt> Lixeira</Link>
+                <Link to='/professor'  className="textoColuna"><TbHomeFilled size={23}></TbHomeFilled> Home</Link>
+                <Link to='/meusCursos' className="textoColuna"><FaTasks size={23}></FaTasks> Meus Cursos</Link>
+                <Link to='/addCurso' className="textoColuna"><IoAddCircleOutline size={23}></IoAddCircleOutline> Adicionar Curso</Link>
+                <Link to='/editarCurso' className="textoColuna"><FaBook size={23}></FaBook> Editar Curso</Link>
+                <Link to='/avaliacoesCurso' className="textoColuna"><FaHeartCircleCheck size={23}></FaHeartCircleCheck> Avaliações do Curso</Link>
+                <Link to='/suaLixeira' className="textoColuna"><FaTrashAlt size={23}></FaTrashAlt> Lixeira</Link>
             </div>
         </>
     )

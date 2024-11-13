@@ -15,7 +15,7 @@ export function Menu(){
             </div>
             <div className='searchUser'>
                 <div className='lupaUser'>
-                    <FaSearch className='iconeLupa'/>
+                    <Link><FaSearch className='iconeLupa'/></Link>
                     <Link to ='/cadastro'><FaUser className='iconeUsuario'/></Link>
                 </div>
             </div> 

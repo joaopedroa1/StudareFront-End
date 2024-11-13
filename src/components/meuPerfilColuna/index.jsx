@@ -11,10 +11,10 @@ export const MeuPerfilColuna = () =>{
         <>
             <div className="perfilOrganizacaoColuna">
                 <h1 className="textoColuna">Meu Perfil</h1>
-                <Link className="textoColuna"><FaUser size={23}></FaUser> Editar Perfil</Link>
-                <Link className="textoColuna"><CiStar size={23}></CiStar> Favoritos</Link>
-                <Link className="textoColuna"><RiSketching size={23}></RiSketching> Rascunhos</Link>
-                <Link className="textoColuna"><AiFillLike size={23}></AiFillLike> Avaliações do Curso</Link>
+                <Link to='/editarPerfilProfessor' className="textoColuna"><FaUser size={23}></FaUser> Editar Perfil</Link>
+                <Link to='/cursosFavoritos' className="textoColuna"><CiStar size={23}></CiStar> Favoritos</Link>
+                <Link to='/meusRascunhos' className="textoColuna"><RiSketching size={23}></RiSketching> Rascunhos</Link>
+                <Link to='/avaliacoesCursos' className="textoColuna"><AiFillLike size={23}></AiFillLike> Avaliações do Curso</Link>
                 <Link className="textoColuna"><FaDoorOpen size={23}></FaDoorOpen> Sair</Link>
             </div>
         </>
