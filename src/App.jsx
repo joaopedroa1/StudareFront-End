@@ -5,6 +5,7 @@ import './App.css'
 import { About } from './components/Sobre'
 import { HomeProfessor } from './components/HomeProfessor'
 import { Encontrar } from './components/Encontrar'
+import { AddCurso } from './components/AddCurso'
 
 
 export function App() {
@@ -18,6 +19,7 @@ export function App() {
       <Route path = '/sobre' element = {<About/>}></Route>
       <Route path='/encontrar' element = {<Encontrar/>}></Route>
       <Route path = '/professor' element = {<HomeProfessor/>} ></Route>
+      <Route path='/addCurso' element = {<AddCurso/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

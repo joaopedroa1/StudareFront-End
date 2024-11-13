@@ -53,7 +53,8 @@
 }
 
 .dia{
-    padding: 3vw;
+    padding: 2vw;
+    padding-left: 4.5vw;
     font-size: 3.6vw;
     font-weight: 600;
     color: #1C2454;
@@ -73,27 +74,32 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 2vw;
     justify-content: center;
+    align-items: center;
 }
 
 .avaliacaoTexto{
     color: #1C2454;
     font-size: 2vw;
     font-family: "League Spartan", sans-serif;
+}
+
+.classificacaoProfessor{
     background-color: #E9E9E9;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2vw;
-    width: 100%;
+    border-radius: 12px;
+    width: 65vw;
 }
 
 .quadradosInfo{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 60vh;
+    height: 50vh;
+    width: 70vw;
 }
 
 .linhaQuadrados{
@@ -110,6 +116,7 @@
 }
 
 .quadradoInfoNum{
+    transition: 0.5s;
     display:flex;
     border-radius: 12px;
     align-items: center;
@@ -117,4 +124,11 @@
     width: 30vw;
     height: 20vh;
     background-color: #E9E9E9;
+}
+
+.quadradoInfoNum:hover{
+    background-color: #1C2454;
+    .avaliacaoTextoDois{
+        color: #E9E9E9;
+    }
 }

@@ -16,17 +16,18 @@ const ProfInfo = ({fotoProfessor, nomeProfessor, emailProfessor}) =>{
         </>
     )
 }
-
 ProfInfo.propTypes = {
     fotoProfessor: PropTypes.any,
     nomeProfessor: PropTypes.any,
     emailProfessor: PropTypes.any
 }
 
-export const HomeProfessor = () =>{
+
+
+export const AddCurso = () => {
     return(
         <>
-        <MenuFixo></MenuFixo>
+         <MenuFixo></MenuFixo>
         <div className="professorHomeGrid">
             <div className="lateralProfessor">
                 <ProfInfo fotoProfessor={prof} nomeProfessor={"Renan Silva Dev"} emailProfessor={'renansilva.dev@gmail.com'}></ProfInfo>
@@ -39,31 +40,13 @@ export const HomeProfessor = () =>{
             </div>
             <div className="corpoProfessor">
                 <div className="textoELinha">
-                    <h1 className="dia">Bom dia professor!</h1>
+                    <h1 className="dia">Adicione um Curso</h1>
                 </div>
                 <div className="linha"></div>
-                <div className='info'>
-                        <div className="classificacaoProfessor">
-                            <h1 className="avaliacaoTexto">Sua classificação está Positiva professor!</h1>
-                        </div>
-                        <div className="quadradosInfo">
-                            <div className="linhaQuadrados">
-                                <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">18 Cursos adicionados</h1>
-                                </div>
-                                <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">20 avaliações</h1>
-                                </div>
-                            </div>
-                            <div className="linhaQuadrados">
-                                <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">12 Cursos favoritados</h1>
-                                </div>
-                                <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">2 Rascunhos</h1>
-                                </div>
-                            </div>
-                        </div>
+                <div className="formularioAddCurso">
+                    <div className="formularioInfoCurso">
+                        
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,15 @@
+.formularioAddCurso{
+    display: flex;
+    padding: .5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+.formularioInfoCurso{
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    background-color: #E9E9E9;
+}
