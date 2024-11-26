@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "icons": "^1.0.0",
     "prop-types": "^15.8.1",
