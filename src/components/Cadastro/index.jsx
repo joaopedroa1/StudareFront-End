@@ -22,6 +22,13 @@ export const Cadastro = () =>{
                     <input type="text" className='campo email'placeholder='E-mail'/>
                     <input type="text" className='campo senha' placeholder='Senha'/>
                     <input type="text" className='campo confirmaSenha' placeholder='Confirmar senha'/>
+                    <div className="alternativas">
+                        <h1 className="tipoConta">Tipo de conta:</h1>
+                        <div className="alternativaConta">
+                            <label className='alternativa'><input type="radio" name='tipo-conta' className='tipoDeConta' />Professor</label>
+                            <label className='alternativa'><input type="radio" name='tipo-conta' className='tipoDeConta' />Aluno</label>
+                        </div>
+                    </div>
                 </form>
                 <button className='botaoEnviar'>Enviar</button>
             </div>
