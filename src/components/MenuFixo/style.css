@@ -18,8 +18,8 @@
 
 
 .logoStatic{
-    width: 150%;
-    height: 100%;
+    width: 17vh;
+    height: 13vw;
 }
 
 .navegacaoStatic{
@@ -36,7 +36,7 @@
     text-decoration: none;
     color: black;
     font-family: "League Spartan", sans-serif;
-    font-size: 175%;
+    font-size: 1.5vw;
     font-weight: 600;
 }
 

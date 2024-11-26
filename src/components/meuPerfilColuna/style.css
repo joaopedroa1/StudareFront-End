@@ -1,4 +1,6 @@
 .perfilOrganizacaoColuna{
     display: flex;
     flex-direction: column;
+    width: 16vw;
+    justify-content: start;
 }
