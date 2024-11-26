@@ -1,15 +1,156 @@
 .formularioAddCurso{
     display: flex;
     padding: .5vw;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding-right: 3vw;
+    padding-left: 1.5vw;
 }
 
 .formularioInfoCurso{
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 80vw;
-    height: 70vh;
-    background-color: #E9E9E9;
+    height: 65vh;
+    padding: 1.2vw;
+}
+
+.tagsEnviarOrganizacao{
+  padding-top: 1vh;
+}
+
+.adicionarFotoCampo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+    /* Esconde o botão padrão */
+    .custom-file-input {
+        display: none;
+      }
+  
+      /* Estilo do botão personalizado */
+      .custom-button {
+        padding: 10px 20px;
+        font-family: "League Spartan", sans-serif;
+        color: #1C2454;
+        border: 3px solid;
+        border-color: #1C2454;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        display: inline-block;
+      }
+  
+      /* Estilo da pré-visualização da imagem */
+      .preview-container {
+        margin-top: 20px;
+      }
+  
+      #preview {
+        max-width: 300px;
+        display: none;
+      }
+.arqSelec{
+    font-family: "LeagueSpartan", sans-serif;
+    font-size: 1.25vw;
+    color: #1C2454;
+    align-self: center;
+    justify-self: center;
+}
+
+.nomeCurso{
+    font-size: 1.25vw;
+    font-family: "League Spartan", sans-serif;
+    color: #1C2454;
+}
+.cargaHoraria{
+  color: #1C2454;
+  height: 5vh;
+  width: 12vw;
+  border-style: none;
+  border: 3px solid;
+  border-color: #949494;
+  border-radius: 8px;
+  padding: 8px;
+
+}
+.cursoNome{
+    width: 55vw;
+    height: 5vh;
+    border-style: none;
+    border: 3px solid;
+    border-color: #949494;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.nomeECargaHoraria{
+  width: 69vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.resumoCursoOrganizacao{
+  padding-top: 1vh;
+}
+
+.resumoCurso{
+  width: 69vw;
+  height: 20vh;
+  border: 3px solid;
+  border-color: #949494;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+}
+
+.tagsCurso{
+  border-style: none;
+  border-radius: 8px;
+  border-color: #949494;
+  border: 3px solid;
+  height: 5vh;
+  padding: 8px;
+  width: 69vw;
+}
+
+.confirmarAdicao{
+  background-color: #0A770E;
+  border: none;
+  color: white;
+  font-family: "League Spartan",sans-serif;
+  font-size: 1vw;
+  padding: .7vw;
+  border-radius: 10px;
+  width: 8vw;
+  cursor: pointer;
+}
+
+.cancelarAdicao{
+  background-color: #DD2525;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-family: "League Spartan",sans-serif;
+  font-size: 1vw;
+  padding: .7vw;
+  width: 8vw;
+  cursor: pointer;
+}
+
+.botoesConfirmarCurso{
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+}
+
+.botoesOrganizacao{
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+
 }
