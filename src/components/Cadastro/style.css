@@ -111,6 +111,14 @@
 .alternativa{
     font-family: "League Spartan", sans-serif;
     font-size: 1vw;
+
+}
+
+.alternativas{
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .alternativaConta{
