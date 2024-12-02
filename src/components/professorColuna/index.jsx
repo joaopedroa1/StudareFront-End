@@ -10,10 +10,10 @@ export const ProfessorColuna = () =>{
         <>
             <div className="professorOrganizacaoColuna">
                 <h1 className="textoColuna">Professor</h1>
-                <Link to='/professor'  className="textoColuna"><TbHomeFilled size={23}></TbHomeFilled> Home</Link>
-                <Link to='/meusCursos' className="textoColuna"><FaTasks size={23}></FaTasks> Meus Cursos</Link>
-                <Link to='/addCurso' className="textoColuna"><IoAddCircleOutline size={23}></IoAddCircleOutline> Adicionar Curso</Link>
-                <Link to='/avaliacoesCurso' className="textoColuna"><FaHeartCircleCheck size={23}></FaHeartCircleCheck> Avaliações do Curso</Link>
+                <Link to='/professor'  className="textoColuna amarelo"><TbHomeFilled size={23}></TbHomeFilled> Home</Link>
+                <Link to='/meusCursos' className="textoColuna amarelo"><FaTasks size={23}></FaTasks> Meus Cursos</Link>
+                <Link to='/addCurso' className="textoColuna amarelo"><IoAddCircleOutline size={23}></IoAddCircleOutline> Adicionar Curso</Link>
+                <Link to='/avaliacoesCurso' className="textoColuna amarelo"><FaHeartCircleCheck size={23}></FaHeartCircleCheck> Avaliações do Curso</Link>
             </div>
         </>
     )
