@@ -9,7 +9,7 @@ import { MeusCursos } from './components/MeusCursos'
 import { CurtidasCurso } from './components/CurtidasMeuCurso'
 import { CursoDetalhes } from './components/CursoDetalhes'
 import { AddCurso } from './components/AddCurso'
-
+import { PerfilProfessor } from './components/PerfilProfessor'
 export function App() {
   return (
     <>
@@ -25,6 +25,7 @@ export function App() {
       <Route path='/meusCursos' element={<MeusCursos></MeusCursos>}></Route>
       <Route path='/avaliacoesCurso' element={<CurtidasCurso/>}></Route>
       <Route path='/cursoDetalhes' element = {<CursoDetalhes/>}></Route>
+      <Route path='/perfilProfessor' element={<PerfilProfessor/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

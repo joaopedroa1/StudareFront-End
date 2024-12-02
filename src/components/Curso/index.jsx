@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import './style.css'
 import { Link } from 'react-router-dom';
 
+const baseURL = ''
 
 export const Curso = ({imagemCurso, cursoTipo, professorCurso, analises}) =>{
     return(

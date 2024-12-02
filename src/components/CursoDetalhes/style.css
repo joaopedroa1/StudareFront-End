@@ -1,0 +1,60 @@
+.imagemDoCursoDetalhe{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+}
+
+.detalheCursoCaracteristicas{
+    height: 100vh;
+    padding: 4%;
+}
+
+.organizacaoDetalhesCurso{
+    display: flex;
+    flex-direction: column;
+}
+.nomeCursoDestaques{
+    font-family: "League Spartan", sans-serif;
+    color: #1C2454;
+    font-size: 4vw;
+}
+
+.detalheCursoCaracteristicas{
+    display: flex;
+    flex-direction: column;
+}
+
+.nomeCursoEAvalie{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+    height: 20vh;
+}
+
+.avalie{
+    width: 10vw;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    border: none;
+    background-color: #1C2454;
+    font-size: 2.5vw;
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    height: 7vh;
+}
+
+.resumo{
+    color: #1C2454;
+    font-size: 3vw;
+    font-family: "League Spartan", sans-serif;
+}
+
+.resumoCursoTexto{
+    color: #1C2454;
+    font-size: 1.5vw;
+    font-family: "League Spartan", sans-serif;
+}
