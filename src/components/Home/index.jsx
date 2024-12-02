@@ -34,7 +34,7 @@ export const Home = () =>{
         <div className='destaques'>
             <h1 className='textoEstilo1'>Destaques</h1>
             <div className="cursosDisponiveis">
-                <Curso/>
+                <Curso cursoTipo={"Curso React"} professorCurso={"Prof. Lucas"} analises={"Muito Positivas"} />
             </div>
         </div>
             <div className='categorias'>

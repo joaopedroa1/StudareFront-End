@@ -8,7 +8,7 @@ export function Menu(){
             <Link to = '/home'><img src = {logo} alt="logoStudare" className='logo'/></Link>
             <div className="centralizadorLista">
             <li className = 'listaLinks'>
-                <div className="dropdown">
+            <div className="dropdown">
                     <h1 className="linkNavbarCategoria">Categorias</h1>
                     <div className="dropdown-content">
 

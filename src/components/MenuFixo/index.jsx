@@ -8,7 +8,12 @@ export function MenuFixo(){
             <Link to = '/home'><img src = {logo} alt="logoStudare" className='logoStatic'/></Link>
             <div className="centralizadorListaStatic">
             <li className = 'listaLinksStatic'>
-                <Link to = '/categorias' className='linkNavbarStatic'>Categorias </Link>
+            <div className="dropdown">
+                    <h1 className="linkNavbarCategoria">Categorias</h1>
+                    <div className="dropdown-content">
+
+                    </div>
+                </div>
                 <Link to = '/encontrar' className='linkNavbarStatic' >Encontrar</Link>
                 <Link to = '/sobre' className='linkNavbarStatic'>Sobre</Link>
             </li>
