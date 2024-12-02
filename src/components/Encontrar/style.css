@@ -29,6 +29,12 @@
     align-items: center;
   }
 
+.filtroTipoDois{
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.7vw;
+  padding-bottom: 6px;
+}
+
 .filtroECursos{
   padding-top: 24px;
     width: 90vw;
@@ -40,4 +46,37 @@
   color: #1C2454;
   font-weight: 650;
   font-size: 2.5vw;
+}
+
+.filtros{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4px;
+  width: 25vw;
+  border: 3px solid;
+  border-radius:12px;
+  height: 70vh;
+}
+
+.filtroTipo{
+  font-family: "League Spartan", sans-serif;
+}
+
+.aplFiltros{
+  width: 45%;
+  height: 40%;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.5vw;
+  border: none;
+  background-color: #1C2454;
+  color: white;
+  border-radius: 8px;
+}
+
+.botoesFiltro{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  height: 20vh;
 }
