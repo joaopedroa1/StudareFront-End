@@ -7,7 +7,6 @@ import { ProfessorColuna } from '../professorColuna';
 import { useState } from 'react';
 
 
-
 const ProfInfo = ({fotoProfessor, nomeProfessor, emailProfessor}) =>{
     return(
         <>

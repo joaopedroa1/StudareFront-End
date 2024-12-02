@@ -6,6 +6,10 @@
     padding: .2vw;
 }
 
+.textoColuna:hover{
+    color: #F9B815; ;
+}
+
 .professorOrganizacaoColuna{
     display: flex;
     flex-direction: column;
