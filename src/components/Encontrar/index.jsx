@@ -39,7 +39,7 @@ export const Encontrar = () =>{
                             </div>
                             <div className="botoesFiltro">
                             <button className="aplFiltros">Aplicar Filtros</button>
-                            <button className='aplFiltros'>Zerar filtros</button>
+                            <button className='aplFiltros' >Zerar filtros</button>
                             </div>
                         </div>
                     </div>

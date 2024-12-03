@@ -1,7 +1,5 @@
 import {FaUser} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
-import { CiStar } from "react-icons/ci";
-import { RiSketching } from "react-icons/ri";
 
 import { FaDoorOpen } from "react-icons/fa";
 import './style.css'

@@ -1,9 +1,6 @@
-import { Carousel } from '../Carrocel';
+
 import './style.css';
 import { Menu } from '../Menu';
-import aluna from '../../assets/aluna.png'
-import aluno from '../../assets/aluno.png'
-import vest from '../../assets/vest.png'
 import { Curso } from '../Curso';
 import{Categoria} from '../Categoria'
 import { BsWindowDash } from "react-icons/bs";
@@ -14,6 +11,12 @@ import { GiPayMoney } from "react-icons/gi";
 import { FaFileVideo } from "react-icons/fa6";
 import { SiAdobephotoshop } from "react-icons/si";
 import { PiCookingPot } from "react-icons/pi";
+import { Carousel } from '../Carrocel'
+import aluna from '../../assets/aluna.png'
+import aluno from '../../assets/aluno.png'
+import vest from '../../assets/vest.png'
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 
 export const Home = () =>{

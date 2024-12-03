@@ -1,7 +1,8 @@
 .imagemDoCursoDetalhe{
     background-color: black;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
+    border-radius: 8px;
 }
 
 .detalheCursoCaracteristicas{

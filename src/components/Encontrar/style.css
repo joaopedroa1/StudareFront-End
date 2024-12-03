@@ -4,6 +4,13 @@
     justify-content: center;
 }
 
+.alternativasFiltro{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .acharCurso{
     width: 70vw;
     text-align: center;
