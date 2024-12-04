@@ -11,20 +11,13 @@ import { GiPayMoney } from "react-icons/gi";
 import { FaFileVideo } from "react-icons/fa6";
 import { SiAdobephotoshop } from "react-icons/si";
 import { PiCookingPot } from "react-icons/pi";
-import { Carousel } from '../Carrocel'
-import aluna from '../../assets/aluna.png'
-import aluno from '../../assets/aluno.png'
-import vest from '../../assets/vest.png'
+import {Carroussel} from '../Carrocel'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 
 export const Home = () =>{
-    const images = [
-        aluna,
-        aluno,
-        vest
-    ]
+
     return (
         <>
         <Menu></Menu>
@@ -32,7 +25,7 @@ export const Home = () =>{
         <div className="homePage">
         <h1 className='boasVindas'>Bem-Vindo ao Studare</h1>
         <div className = 'carrocel'>
-            <Carousel images={images} />
+            <Carroussel></Carroussel>
         </div>
         <div className='destaques'>
             <h1 className='textoEstilo1'>Destaques</h1>
