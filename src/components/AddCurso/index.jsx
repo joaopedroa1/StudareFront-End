@@ -67,7 +67,7 @@ const handleFileChange = (event) => {
                         <div className="nomeECargaHoraria">
                             <div className="nomeCursoOrganizacao">
                                 <h1 className="nomeCurso">Nome do curso</h1>
-                                <input className='cursoNome' type="text" placeholder='Insira o nome do curso magnata' id='nomeDoCurso'/>
+                                <input className='cursoNome' type="text" placeholder='Insira o nome do curso' id='nomeDoCurso'/>
                             </div>
                             <div className="nomeCursoOrganizacao">
                                 <h1 className="nomeCurso">Carga horária</h1>
