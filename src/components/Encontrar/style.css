@@ -43,9 +43,11 @@
 }
 
 .filtroECursos{
+  display: flex;
+
   padding-top: 24px;
-    width: 90vw;
-    height: 60vw;
+  width: 90vw;
+  height: 30vw;
 }
 
 .textoFiltros{
@@ -86,4 +88,51 @@
   justify-content: space-around;  
   align-items: center;
   height: 20vh;
+}
+
+.cursosEncontrar{
+  width: 100rem;
+  height: 47rem;
+  padding: 2rem;
+}
+
+.cursoTeste{
+    width: 47rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.fotoDoCursoPesquisa{
+  width: 25rem;
+  height: 15rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.nomeCursoMaior{
+  font-family: "League Spartan", sans-serif;
+  font-size: 2rem;
+  color: #1C2454;
+}
+
+.avaliacaoCor{
+  font-family: "League Spartan", sans-serif;
+  color: rgb(108, 179, 1);
+  font-size: 1.6rem;
+}
+
+.descCursoPesquisa{
+  font-family: "League Spartan", sans-serif;
+  font-family: 0.2rem;
+  display: inline
+}
+
+.descCursoPesquisaDisplay{
+  display: block;
+  break-inside: auto;
+  width: 20rem;
+  height: 7rem;
+  background-color: bisque;
 }
