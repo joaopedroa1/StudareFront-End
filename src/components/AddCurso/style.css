@@ -97,9 +97,19 @@
   padding-top: 1vh;
 }
 
+.linkCurso{
+  width: 69vw;
+  height: 2rem;
+  border: 3px solid;
+  border-color: #949494;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: "League Spartan", sans-serif;
+}
+
 .resumoCurso{
   width: 69vw;
-  height: 20vh;
+  height: 4rem;
   border: 3px solid;
   border-color: #949494;
   border-radius: 8px;
@@ -111,8 +121,8 @@
 .tagsCurso{
   border-style: none;
   border-radius: 8px;
-  border-color: #949494;
   border: 3px solid;
+  border-color: #949494;
   height: 5vh;
   padding: 8px;
   width: 33.5vw;

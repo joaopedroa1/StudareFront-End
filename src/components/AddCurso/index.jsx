@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import prof from '../../assets/renanSilvaDev.png'
 import { MeuPerfilColuna } from '../meuPerfilColuna'
 import { ProfessorColuna } from '../professorColuna';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 
 const ProfInfo = ({fotoProfessor, nomeProfessor, emailProfessor}) =>{
@@ -25,16 +26,49 @@ ProfInfo.propTypes = {
 }
 
 
-
 export const AddCurso = () => {
-    const [fileName, setFileName] = useState('');
+
+const [nomeCurso, setNomeCurso] = useState('');
+const [descCurso, setDescCurso] = useState('');
+const [linkCurso, setLinkCurso] = useState('');
+const [cargaHoraria, setCargaHoraria] = useState('');
+
+const [fileName, setFileName] = useState('');
+
+
+const baseURL = 'http://localhost:8080/api/v1/'
+
+async function postaCurso(e){
+    e.preventDefault();
+    const headers = {
+        'Content-Type': 'application/json',
+        Authorization: '',
+    };
+
+    let response = await axios(
+        {
+            method : 'post',
+            url: baseURL + 'courses',
+            data:{
+                Name: nomeCurso,
+                Description: descCurso,
+                Link: linkCurso,
+                Duration: cargaHoraria,
+                Author: 'Professor Lucas',
+                Institution: 'Curso',
+            }
+        })
+    console.log(response.data)
+};
+
+
 
 const handleFileChange = (event) => {
       const file = event.target.files[0];
       if (file) {
         setFileName(file.name); // Atualizar o estado com o nome do arquivo
       }
-    };
+};
     return(
         <>
          <MenuFixo></MenuFixo>
@@ -67,16 +101,20 @@ const handleFileChange = (event) => {
                         <div className="nomeECargaHoraria">
                             <div className="nomeCursoOrganizacao">
                                 <h1 className="nomeCurso">Nome do curso</h1>
-                                <input className='cursoNome' type="text" placeholder='Insira o nome do curso' id='nomeDoCurso'/>
+                                <input value={nomeCurso} onChange={(e) => setNomeCurso(e.target.value)} className='cursoNome' type="text" placeholder='Insira o nome do curso' id='nomeDoCurso'/>
                             </div>
                             <div className="nomeCursoOrganizacao">
                                 <h1 className="nomeCurso">Carga horária</h1>
-                                <input type="text" className="cargaHoraria" placeholder='Carga horária' id='cargaHoraria' />
+                                <input value={cargaHoraria} onChange={(e) => setCargaHoraria(e.target.value)} type="text" className="cargaHoraria" placeholder='Carga horária' id='cargaHoraria' />
                             </div>
                         </div>
                         <div className="resumoCursoOrganizacao">
                             <h1 className="nomeCurso">Resumo do curso</h1>
-                            <textarea type="text" className="resumoCurso" id='resumoCurso' placeholder='Resumo do curso'/>
+                            <textarea value={descCurso} onChange={(e) => setDescCurso(e.target.value)} type="text" className="resumoCurso" id='resumoCurso' placeholder='Resumo do curso'/>
+                        </div>
+                        <div className="resumoCursoOrganizacao">
+                            <h1 className="nomeCurso">Link do curso</h1>
+                            <input value={linkCurso} onChange={(e) => setLinkCurso(e.target.value)} type="text" className='linkCurso' placeholder='Coloque o link do curso' />
                         </div>
                         <div className="tagsEnviarOrganizacao">
                             <h1 className="nomeCurso">Tags</h1>
@@ -85,7 +123,7 @@ const handleFileChange = (event) => {
                         <div className="botoesConfirmarCurso">
                             <div className="botoesOrganizacao">
                                 <button className='cancelarAdicao'>Cancelar</button>
-                                <button className='confirmarAdicao'>Confirmar</button>
+                                <button className='confirmarAdicao' onClick={postaCurso}>Confirmar</button>
                             </div>
                         </div>
                         </div>
