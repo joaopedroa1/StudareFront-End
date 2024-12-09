@@ -128,7 +128,7 @@
     display: flex;
     flex-direction: column;
     height:18vw;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 

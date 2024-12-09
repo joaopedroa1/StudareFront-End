@@ -129,10 +129,13 @@
   display: inline
 }
 
-.descCursoPesquisaDisplay{
+.descCursoPesquisaDisplay {
   display: block;
-  break-inside: auto;
+  overflow: hidden; /* Impede que o conteúdo ultrapasse as bordas do contêiner */
+  white-space: normal; /* Permite que o texto quebre em várias linhas */
+  word-wrap: break-word; /* Força a quebra de palavras longas */
   width: 20rem;
   height: 7rem;
-  background-color: bisque;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }

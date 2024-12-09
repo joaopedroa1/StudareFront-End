@@ -10,6 +10,8 @@ import { CurtidasCurso } from './components/CurtidasMeuCurso'
 import { CursoDetalhes } from './components/CursoDetalhes'
 import { AddCurso } from './components/AddCurso'
 import { PerfilProfessor } from './components/PerfilProfessor'
+import { Login } from './components/Entrar'
+
 export function App() {
   return (
     <>
@@ -26,6 +28,7 @@ export function App() {
       <Route path='/avaliacoesCurso' element={<CurtidasCurso/>}></Route>
       <Route path='/cursoDetalhes' element = {<CursoDetalhes/>}></Route>
       <Route path='/perfilProfessor' element={<PerfilProfessor/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
