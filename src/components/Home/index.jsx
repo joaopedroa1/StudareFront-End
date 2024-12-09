@@ -48,9 +48,6 @@ export const Home = () =>{
                 <Categoria icon={<SiAdobephotoshop size={100}/>} text={'Edição de foto'}/>
                 <Categoria icon={<PiCookingPot size={100}/>} text={'Culinária'}/>
             </div>
-            <div className="anuncioPadding">
-                <div className="anuncio"></div>
-            </div>
         </div>
         </>
     )

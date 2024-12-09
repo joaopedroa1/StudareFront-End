@@ -43,9 +43,9 @@ export const Encontrar = () =>{
 
                         </div>
                         <div className="statsCurso">
-                            <h1 className="nomeCursoMaior">Nome do Curso</h1>
+                            <h1 className="nomeCursoMaior">Curso Java</h1>
                             <div className="descCursoPesquisaDisplay">
-                                <p className="descCursoPesquisa"></p>
+                                <p className="descCursoPesquisa">Curso de programação básica em Java</p>
                             </div>
                             <h1 className="avaliacaoCor">Positivas</h1>
                         </div>

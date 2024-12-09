@@ -62,13 +62,14 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 4px;
-  width: 25vw;
+  width: 20rem;
   border: 3px solid;
   border-radius:12px;
-  height: 70vh;
+  height: 30rem;
 }
 
 .filtroTipo{
+  font-size: 2rem;
   font-family: "League Spartan", sans-serif;
 }
 

@@ -2,9 +2,10 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-import slide_image_1 from "../../assets/aluna.png";
-import slide_image_2 from "../../assets/fundo.png";
-import slide_image_3 from "../../assets/aluno.png";
+import slide_image_1 from "../../assets/fC1.png";
+import slide_image_2 from "../../assets/fC2.png";
+import slide_image_3 from "../../assets/fC3.png";
+import slide_image_4 from "../../assets/fC4.png";
 
 import './style.css';
 import 'swiper/css';
@@ -47,7 +48,7 @@ export const Carroussel = ()=> {
             <img src={slide_image_3} alt="slide_image" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide_image_1} alt="slide_image" />
+            <img src={slide_image_4} alt="slide_image" />
           </SwiperSlide>
 
           <div className="slider-controler">

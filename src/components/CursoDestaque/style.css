@@ -9,6 +9,8 @@
 
 .cursoDestaqueFoto{
     width: 20vw;
+    height: 12rem;
+    border-radius: 12px;
 }
 
 .titulo{
@@ -26,7 +28,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 4vw;
-    height: 23vw;
+    height: 19rem;
     justify-content: space-between;
     align-items: center;
 }

@@ -1,24 +1,27 @@
 import '../Sobre/style.css'
 
+import fotoAngular from '../../assets/angular.png'
 import computadores from '../../assets/computadores.png'
+import fotoMat from '../../assets/matematica.png'
 import computador from '../../assets/computador.png'
-import santana from '../../assets/santana.png'
+import santana from '../../assets/estudante1.png'
 import { Menu } from '../Menu'
 import { FaCheck } from "react-icons/fa";
 import mulherSobre from '../../assets/mulherSobre.png'
 import { AvaliacaoAluno } from '../AlunoAvaliacao';
 import { CursoDestaque } from '../CursoDestaque';
 import fotoReact from '../../assets/fotoReact.png';
-import lohan from '../../assets/lohan.png'
-import faraum from '../../assets/faraum.png'
-import guh from '../../assets/guh.png'
+import lohan from '../../assets/estudante2.png'
+import faraum from '../../assets/estudante3.png'
+import guh from '../../assets/estudante4.png'
 import { LuBrush } from "react-icons/lu";
 import { Cartao } from '../Cartao'
 import { CartaoAmarelo } from '../CartaoAmarelo'
 import { GiGraduateCap } from "react-icons/gi";
 import { CartaoBranco } from '../CartaoBranco'
 import { SlBadge } from "react-icons/sl";
-import{Duvidas} from '../Duvidas'
+import{ Duvidas } from '../Duvidas';
+
 export const About = () => {
     return(
         <>
@@ -29,8 +32,8 @@ export const About = () => {
             <h1 className="texto1Branco">Destaques</h1>
             <div className="organizacaoCursosEmDestaque">
             <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
-            <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
-            <CursoDestaque imagemCurso={fotoReact} cursoTipo={'React'} professorCurso={'Prof. Lucas'}></CursoDestaque>
+            <CursoDestaque imagemCurso={fotoAngular} cursoTipo={'Angular - Alura'} professorCurso={'Prof. Vinícius'}></CursoDestaque>
+            <CursoDestaque imagemCurso={fotoMat} cursoTipo={'Matemática Básica'} professorCurso={'Prof. Daniel'}></CursoDestaque>
             </div>
         </div>
         <div className="soAqui">
@@ -50,7 +53,7 @@ export const About = () => {
             <h1 className="textoEstilo1">Avaliação dos nossos alunos</h1>
             <div className='avaliacoesAlunos'>
             <AvaliacaoAluno imagemAlunoAvAliacao={santana} nomeAlunoAvaliacao={'Gustavo Santana'} textoAlunoAvaliacao={'Passei no vestibular da FUVEST graças a vocês, obrigado!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
-            <AvaliacaoAluno imagemAlunoAvAliacao={lohan} nomeAlunoAvaliacao={'Lohan Isaque'} textoAlunoAvaliacao={'Muito bom, me ajudou muito a passar no curso que eu precisava!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
+            <AvaliacaoAluno imagemAlunoAvAliacao={lohan} nomeAlunoAvaliacao={'Lohaine Evangelista'} textoAlunoAvaliacao={'Muito bom, me ajudou muito a passar no curso que eu precisava!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
             <AvaliacaoAluno imagemAlunoAvAliacao={faraum} nomeAlunoAvaliacao={'Danilo Faraum'} textoAlunoAvaliacao={'Eu achei bom, mas acho que dava pra melhorar a estrutura do site.'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
             <AvaliacaoAluno imagemAlunoAvAliacao={guh} nomeAlunoAvaliacao={'Gusthavo Andrade'} textoAlunoAvaliacao={'Passei na USP graças ao Studare, vocês são feras!'} avaliacaoPositiva={'Avaliação positiva'}></AvaliacaoAluno>
             </div>

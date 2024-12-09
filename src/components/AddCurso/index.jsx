@@ -50,12 +50,12 @@ async function postaCurso(e){
             method : 'post',
             url: baseURL + 'courses',
             data:{
-                Name: nomeCurso,
-                Description: descCurso,
-                Link: linkCurso,
-                Duration: cargaHoraria,
-                Author: 'Professor Lucas',
-                Institution: 'Curso',
+                name: nomeCurso,
+                description: descCurso,
+                link: linkCurso,
+                duration: cargaHoraria,
+                author: 'Professor Lucas',
+                institution: 'Curso',
             }
         })
     console.log(response.data)

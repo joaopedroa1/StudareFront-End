@@ -1,17 +1,15 @@
 
 
 .slide_image{
-    height: 600px;
-    width: 1100px;
+    height: 30rem;
+    width: 65rem;
     display: flex;
-    border-radius: 12px;
 }
 
 .slide_image img {
-    height: 600px;
-    width: 1100px;
+    height: 30rem;
+    width: 65rem;
     display: block;
-    border-radius: 12px;
 }
 
 
@@ -55,22 +53,20 @@
   }
   
   .container {
-    width: 100vw;
-    height: 70vh;
-    padding: 4rem 1rem;
+
     margin: 0 auto;
   }
 
   
   .swiper_container {
+    border-radius: 18px;
     height: 35vw;
     width: 51vw;
     position: fixed;
   }
   
   .swiper-slide {
-    width: 100vw;
-    height: 10vw;
+   
     position: relative;
   }
   
