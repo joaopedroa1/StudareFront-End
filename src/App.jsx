@@ -10,6 +10,8 @@ import { CurtidasCurso } from './components/CurtidasMeuCurso'
 import { CursoDetalhes } from './components/CursoDetalhes'
 import { AddCurso } from './components/AddCurso'
 import { PerfilProfessor } from './components/PerfilProfessor'
+import { CursoDetalhesIngles } from './components/cursoIngles'
+import { CursoDetalhesEdicao } from './components/CursoDetalhesEdicao'
 import { Login } from './components/Entrar'
 
 export function App() {
@@ -26,9 +28,11 @@ export function App() {
       <Route path='/addCurso' element = {<AddCurso/>}></Route>
       <Route path='/meusCursos' element={<MeusCursos></MeusCursos>}></Route>
       <Route path='/avaliacoesCurso' element={<CurtidasCurso/>}></Route>
-      <Route path='/cursoDetalhes' element = {<CursoDetalhes/>}></Route>
+      <Route path='/cursoDetalhes/cursoreact' element = {<CursoDetalhes/>}></Route>
       <Route path='/perfilProfessor' element={<PerfilProfessor/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
+      <Route path='/cursosDetalhes/cursodeingles' element={<CursoDetalhesIngles/>}></Route>
+      <Route path='/cursosDetalhes/cursodeedicao' element={<CursoDetalhesEdicao/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

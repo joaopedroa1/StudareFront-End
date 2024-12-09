@@ -39,12 +39,12 @@ export const HomeProfessor = () =>{
             </div>
             <div className="corpoProfessor">
                 <div className="textoELinha">
-                    <h1 className="dia">Bom dia professor!</h1>
+                    <h1 className="dia">Bom dia usuário!</h1>
                 </div>
                 <div className="linha"></div>
                 <div className='info'>
                         <div className="classificacaoProfessor">
-                            <h1 className="avaliacaoTexto">Sua classificação está Positiva professor!</h1>
+                            <h1 className="avaliacaoTexto">Sua classificação está Positiva!</h1>
                         </div>
                         <div className="quadradosInfo">
                             <div className="linhaQuadrados">

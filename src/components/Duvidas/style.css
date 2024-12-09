@@ -10,7 +10,7 @@
     font-weight: bold;
     font-family: 'League Spartan', sans-serif;
     color: #1C2454;
-    font-size: 2vw;
+    font-size: 2rem;
   }
   
   .accordion-body {
@@ -18,6 +18,6 @@
     padding: 10px;
     color: #1C2454;
     font-family: 'League Spartan', sans-serif;
-    font-size: 1.4vw;
+    font-size: 1.5rem;
   }
   

@@ -1,5 +1,7 @@
 
 import './style.css';
+import ingles from '../../assets/cursoIngles.png'
+import edicao from '../../assets/edicaoCurso.png'
 import { Menu } from '../Menu';
 import { Curso } from '../Curso';
 import{Categoria} from '../Categoria'
@@ -12,6 +14,7 @@ import { FaFileVideo } from "react-icons/fa6";
 import { SiAdobephotoshop } from "react-icons/si";
 import { PiCookingPot } from "react-icons/pi";
 import {Carroussel} from '../Carrocel'
+import reactLogo from '../../assets/fotoReact.png'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
@@ -30,7 +33,9 @@ export const Home = () =>{
         <div className='destaques'>
             <h1 className='textoEstilo1'>Destaques</h1>
             <div className="cursosDisponiveis">
-                <Curso cursoTipo={"Curso React"} professorCurso={"Prof. Lucas"} analises={"Muito Positivas"} />
+                <Curso imagemCurso={reactLogo} cursoTipo={"Curso React"} professorCurso={"Prof. Lucas"} analises={"Muito Positivas"} pagLink={'/cursoDetalhes/cursoreact'} />
+                <Curso imagemCurso={ingles} cursoTipo={"Curso de inglês"} professorCurso={"Prof. Larissa"} analises={"Positivas"} pagLink={'/cursosDetalhes/cursodeingles'}></Curso>
+                <Curso imagemCurso={edicao} cursoTipo={"Curso de edição"} professorCurso={"Prof. Julio"} analises={"Positivas"} pagLink={"/cursosDetalhes/cursodeedicao"}></Curso>
             </div>
         </div>
             <div className='categorias'>

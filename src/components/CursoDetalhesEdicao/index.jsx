@@ -1,28 +1,28 @@
 import './style.css'
 import PropTypes from 'prop-types';
 import { Menu } from '../Menu'
-import react from  '../../assets/fotoReact.png'
+import edicao from  '../../assets/edicaoCurso.png'
 
 
-export const CursoDetalhes = () =>{
+export const CursoDetalhesEdicao = () =>{
     return(
         <>
             <Menu/>
             <div className="invisivi"></div>
             <div className="organizacaoDetalhesCurso">
                 <div className="imagemCursoDetalhe">
-                    <img className='imagemDoCursoDetalhe' src={react} alt="" />  
+                    <img className='imagemDoCursoDetalhe' src={edicao} alt="" />  
                 </div>
                 <div className="detalheCursoCaracteristicas">
                     <div className="nomeCursoEAvalie">
-                        <h1 className='nomeCursoDestaques'>Curso de react</h1>
+                        <h1 className='nomeCursoDestaques'>Curso de Edição</h1>
                         <button className='avalie'>Avalie</button>
                     </div>
                     <h1 className="resumo">Resumo do curso</h1>
-                    <p className='resumoCursoTexto'>Curso de programação em react do básico ao avançado.</p>
+                    <p className='resumoCursoTexto'>Curso de edição avançado, abordando platadormas feitas para imagens, como o Photoshop, ou para edição audiovisual, como o Adobe Premiere</p>
                     <div className="avaliacoesDetalhes">
                         <h1 className="resumo">Avaliação do curso</h1>
-                        <h1 className="textoEstiloAnalise1">Muito positivas</h1>
+                        <h1 className="textoEstiloAnalise1">Positivas</h1>
                     </div>
                 </div>
             </div>

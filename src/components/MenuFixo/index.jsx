@@ -25,8 +25,7 @@ export function MenuFixo(){
             </div>
             <div className='searchUserStatic'>
                 <div className='lupaUserStatic'>
-                    <FaSearch className='iconeLupaStatic'/>
-                    <Link to ='/cadastro'><FaUser className='iconeUsuarioStatic'/></Link>
+                    <Link to ='/professor'><FaUser className='iconeUsuarioStatic'/></Link>
                 </div>
             </div> 
         </nav>

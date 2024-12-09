@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 16vw;
-    height: 20vw;
+    width: 16rem;
+    height: 20rem;
     padding: .5vw;
 }
 .imgAlunoAvaliacao{
@@ -16,12 +16,12 @@
 }
 
 .nomeAvaliacaoAluno{
-    font-size: 1.35vw;
+    font-size: 1.35rem;
 }
 
 .textoAvaliacaoAluno{
     padding-top: .8vw;
-    font-size: 1.35vw;
+    font-size: 1.35rem;
     width: 15vw;
     align-self: center;
     text-align: center;
@@ -30,7 +30,7 @@
 
 .avaliacaoBoa{
     padding-top: .5vw;
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight: 800;
     color: #0A770E;
 }

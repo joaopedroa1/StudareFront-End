@@ -3,12 +3,12 @@ import './style.css'
 import { Link } from 'react-router-dom';
 
 
-export const Curso = ({imagemCurso, cursoTipo, professorCurso, analises}) =>{
+export const Curso = ({imagemCurso, cursoTipo, professorCurso, analises, pagLink}) =>{
     return(
     <>
-    <Link to = '/cursoDetalhes' className='cursoDetalhesLink' >
+
     <div className = 'organizacaoCurso'>
-        <div className='imagemCurso'>{imagemCurso}</div>
+    <Link to = {pagLink} className='cursoDetalhesLink' > <div className='imagemCurso'><img className='imgCursoHome' src={imagemCurso} alt="" /></div></Link>
         <div className='textoGrupo'>
             <div>
                 <h1 className="textoEstilo2">{cursoTipo}</h1>
@@ -17,7 +17,6 @@ export const Curso = ({imagemCurso, cursoTipo, professorCurso, analises}) =>{
         <h1 className="textoEstiloAnalise1">{analises}</h1>
         </div>
     </div>
-    </Link>
         </>
     )
 

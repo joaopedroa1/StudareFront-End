@@ -2,6 +2,10 @@
     text-decoration: none;
 
 }
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
 
 .positivas{
     background-color: #1C2454;
@@ -16,7 +20,7 @@ a{
 }
 
 .maior{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .padding112{
@@ -60,8 +64,8 @@ a{
 }
 
 .mulherSobre{
-    height: 44rem;
-    width: 36rem;
+    height: 40rem;
+    width: 32rem;
 }
 
 .cursosDestaque{
@@ -74,7 +78,7 @@ a{
 
 .textoSoAqui{
     padding-top: 1.5rem;
-    font-size: 48px;
+    font-size: 2rem;
     color: #1C2454;
     font-family: "League Spartan", sans-serif;
 }
