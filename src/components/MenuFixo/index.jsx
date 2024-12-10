@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './style.css';
-import { FaUserAlt as FaUser, FaSearch} from 'react-icons/fa'
+import { FaUserAlt as FaUser,} from 'react-icons/fa'
 import logo from '../../assets/logo.svg';
 export function MenuFixo(){
     return(
@@ -12,10 +12,10 @@ export function MenuFixo(){
                     <h1 className="linkNavbarCategoria">Categorias</h1>
                     <div className="dropdown-content">
                        <div className="dpConfig">
-                            <Link className='linkCategoria' to={'http://localhost:5173/encontrar?encontrar=matematica'}>Matemática</Link>
-                            <Link className='linkCategoria' to={'http://localhost:5173/encontrar?encontrar=historia'}>História</Link>
-                            <Link className='linkCategoria' to={'http://localhost:5173/encontrar?encontrar=programacao'}>Programação</Link>
-                            <Link className='linkCategoria' to={'http://localhost:5173/encontrar?encontrar=edicao'}>Edição</Link>
+                            <Link className='linkCategoria' to={'/encontrar/encontrar=matematica'}>Matemática</Link>
+                            <Link className='linkCategoria' to={'/encontrar/encontrar=economia'}>Economia</Link>
+                            <Link className='linkCategoria' to={'/encontrar/encontrar=programacao'}>Programação</Link>
+                            <Link className='linkCategoria' to={'/encontrar/encontrar=edicao'}>Edição</Link>
                        </div>
                     </div>
                 </div>

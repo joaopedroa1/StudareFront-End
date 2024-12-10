@@ -13,6 +13,12 @@ import { PerfilProfessor } from './components/PerfilProfessor'
 import { CursoDetalhesIngles } from './components/cursoIngles'
 import { CursoDetalhesEdicao } from './components/CursoDetalhesEdicao'
 import { Login } from './components/Entrar'
+import { CursoDetalhesJava } from './components/CursoDetalhesHTML'
+import { CursoDetalhesHTML } from './components/CursoDetalhesJavaB'
+import { CursoDetalhesType } from './components/CursoDetalhesType'
+import { EncontrarProgramacao } from './components/EncontrarProgramacao'
+import { EncontrarIndisponivel } from './components/EncontrarIndisponivel'
+import { EncontrarEdicao } from './components/EncontrarEdicao'
 
 export function App() {
   return (
@@ -33,6 +39,12 @@ export function App() {
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/cursosDetalhes/cursodeingles' element={<CursoDetalhesIngles/>}></Route>
       <Route path='/cursosDetalhes/cursodeedicao' element={<CursoDetalhesEdicao/>}></Route>
+      <Route path='/cursoDetalhes/cursojava' element={<CursoDetalhesJava/>}></Route>
+      <Route path='/cursoDetalhes/cursohtml' element = {<CursoDetalhesHTML/>}></Route>
+      <Route path='/cursoDetalhes/cursotype' element= {<CursoDetalhesType/>}></Route>
+      <Route path='/encontrar/encontrar=programacao' element ={<EncontrarProgramacao></EncontrarProgramacao>}></Route>
+      <Route path='/encontrar/encontrar=economia' element={<EncontrarIndisponivel/>}></Route>
+      <Route path='/encontrar/encontrar=edicao' element={<EncontrarEdicao/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

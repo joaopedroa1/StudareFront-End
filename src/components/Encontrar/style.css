@@ -38,7 +38,7 @@
 
 .filtroTipoDois{
   font-family: "League Spartan", sans-serif;
-  font-size: 1.7vw;
+  font-size: 1.7rem;
   padding-bottom: 6px;
 }
 
@@ -55,6 +55,12 @@
   color: #1C2454;
   font-weight: 650;
   font-size: 2.5vw;
+}
+
+.cursoEncontrarFoto{
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
 }
 
 .filtros{
@@ -92,8 +98,11 @@
 }
 
 .cursosEncontrar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100rem;
-  height: 47rem;
+  height: 55rem;
   padding: 2rem;
 }
 
@@ -138,5 +147,4 @@
   width: 20rem;
   height: 7rem;
   border-radius: 0.5rem;
-  padding: 0.5rem;
 }

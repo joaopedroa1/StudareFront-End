@@ -1,5 +1,4 @@
 import './style.css'
-import PropTypes from 'prop-types';
 import { Menu } from '../Menu'
 import react from  '../../assets/fotoReact.png'
 

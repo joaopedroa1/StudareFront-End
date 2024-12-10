@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import cursoHTML from '../../assets/HTMLcurso.png';
 import cursoType from '../../assets/typeCurso.png'
 
-export const Encontrar = () =>{
+export const EncontrarProgramacao = () =>{
     return(
         <>
         <Menu></Menu>
@@ -43,6 +43,18 @@ export const Encontrar = () =>{
                     </div>
                 </div>
                 <div className="cursosEncontrar">
+                <div className="cursoTeste">
+                        <div className="fotoDoCursoPesquisa">
+                            <Link to='/cursoDetalhes/cursohtml'><img className='cursoEncontrarFoto' src={cursoHTML} alt="" /></Link>
+                        </div>
+                        <div className="statsCurso">
+                            <h1 className="nomeCursoMaior">Curso HTML e CSS</h1>
+                            <div className="descCursoPesquisaDisplay">
+                                <p className="descCursoPesquisa">Curso de programação completo HTML e CSS, do básico ao avançado.</p>
+                            </div>
+                            <h1 className="avaliacaoCor">Muito Positivas</h1>
+                        </div>
+                    </div>
                     <div className="cursoTeste">
                         <div className="fotoDoCursoPesquisa">
                             <Link to='/cursoDetalhes/cursojava'><img className='cursoEncontrarFoto' src={cursoJavaBonito} alt="" /></Link>
@@ -53,18 +65,6 @@ export const Encontrar = () =>{
                                 <p className="descCursoPesquisa">Curso de programação básica em Java e Javascript avançado no front-end.</p>
                             </div>
                             <h1 className="avaliacaoCor">Positivas</h1>
-                        </div>
-                    </div>
-                    <div className="cursoTeste">
-                        <div className="fotoDoCursoPesquisa">
-                            <Link to='/cursoDetalhes/cursohtml'><img className='cursoEncontrarFoto' src={cursoHTML} alt="" /></Link>
-                        </div>
-                        <div className="statsCurso">
-                            <h1 className="nomeCursoMaior">Curso HTML e CSS</h1>
-                            <div className="descCursoPesquisaDisplay">
-                                <p className="descCursoPesquisa">Curso de programação completo HTML e CSS, do básico ao avançado.</p>
-                            </div>
-                            <h1 className="avaliacaoCor">Muito Positivas</h1>
                         </div>
                     </div>
                     <div className="cursoTeste">

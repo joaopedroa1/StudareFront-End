@@ -1,27 +1,27 @@
 import './style.css'
 import { Menu } from '../Menu'
-import edicao from  '../../assets/edicaoCurso.png'
+import typeCurso from  '../../assets/typeCurso.png'
 
 
-export const CursoDetalhesEdicao = () =>{
+export const CursoDetalhesType = () =>{
     return(
         <>
             <Menu/>
             <div className="invisivi"></div>
             <div className="organizacaoDetalhesCurso">
                 <div className="imagemCursoDetalhe">
-                    <img className='imagemDoCursoDetalhe' src={edicao} alt="" />  
+                    <img className='imagemDoCursoDetalhe' src={typeCurso} alt="" />  
                 </div>
                 <div className="detalheCursoCaracteristicas">
                     <div className="nomeCursoEAvalie">
-                        <h1 className='nomeCursoDestaques'>Curso de Edição</h1>
+                        <h1 className='nomeCursoDestaques'>Curso TypeScript</h1>
                         <button className='avalie'>Avalie</button>
                     </div>
                     <h1 className="resumo">Resumo do curso</h1>
-                    <p className='resumoCursoTexto'>Curso de edição avançado, abordando platadormas feitas para imagens, como o Photoshop, ou para edição audiovisual, como o Adobe Premiere</p>
+                    <p className='resumoCursoTexto'>Curso de programação em TypeScript, buscando ensinar tudo do software.</p>
                     <div className="avaliacoesDetalhes">
                         <h1 className="resumo">Avaliação do curso</h1>
-                        <h1 className="textoEstiloAnalise1">Positivas</h1>
+                        <h1 className="textoEstiloAnalise1">Muit Positivas</h1>
                     </div>
                 </div>
             </div>

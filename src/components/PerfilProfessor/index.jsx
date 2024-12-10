@@ -27,7 +27,7 @@ export const PerfilProfessor = () =>{
         <MenuFixo></MenuFixo>
         <div className="professorHomeGrid">
             <div className="lateralProfessor">
-                <ProfInfo fotoProfessor={prof} nomeProfessor={"Renan Silva Dev"} emailProfessor={'renansilva.dev@gmail.com'}></ProfInfo>
+                <ProfInfo fotoProfessor={prof} nomeProfessor={"Usuário"} emailProfessor={'renansilva.dev@gmail.com'}></ProfInfo>
                 <div className="alaProfessor">
                     <ProfessorColuna></ProfessorColuna>
                 </div>
