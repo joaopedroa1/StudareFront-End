@@ -12,7 +12,7 @@ export function Menu(){
                     <h1 className="linkNavbarCategoria">Categorias</h1>
                     <div className="dropdown-content">
                     <div className="dpConfig">
-                            <Link className='linkCategoria' to={'/encontrar/encontrar=matematica'}>Matemática</Link>
+                            <Link className='linkCategoria' to={'/encontrar/encontrar=economia'}>Pacote World</Link>
                             <Link className='linkCategoria' to={'/encontrar/encontrar=economia'}>Economia</Link>
                             <Link className='linkCategoria' to={'/encontrar/encontrar=programacao'}>Programação</Link>
                             <Link className='linkCategoria' to={'/encontrar/encontrar=edicao'}>Edição</Link>
