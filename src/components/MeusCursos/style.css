@@ -1,0 +1,44 @@
+.cursosDisplay{
+    padding: 2rem;
+    width: 100rem;
+    height: 20rem;
+}
+
+.cursoFotoDisplay{
+    background-color: black;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.cursoMostrar{
+    display: flex;
+}
+
+.nomeCursoDisplay{
+    color:#1C2454;
+    font-family: "League Spartan", sans-serif;
+    font-size: 3rem;
+}
+
+.caracCursoDisplay{
+    color: black;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5rem;
+}
+
+.cargaHorariaCurso{
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(99, 99, 99);
+}
+
+.fotoCursoDisplay{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.caracteristicasCurso{
+    padding-left: 1rem;
+}

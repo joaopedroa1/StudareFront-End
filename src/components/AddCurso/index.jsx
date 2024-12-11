@@ -54,7 +54,7 @@ async function postaCurso(e){
                 description: descCurso,
                 link: linkCurso,
                 duration: cargaHoraria,
-                author: 'Professor Lucas',
+                author: 'Usuário',
                 institution: 'Curso',
             }
         })
