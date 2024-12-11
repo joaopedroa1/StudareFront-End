@@ -1,0 +1,32 @@
+
+.usuarioAvaliacaoFoto{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 360px;
+    border: 2px solid;
+    border-color: #1C2454;
+}
+
+.orgAvaliacao{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.nomeUser{
+    font-size: 1.75rem;
+    color: #1C2454;
+    font-family: "League Spartan", sans-serif;
+}
+
+.avaliacaoUser{
+    color: greenyellow;
+    font-size: 1.25rem;
+    font-family: "League Spartan", sans-serif;
+}
+
+.avaliacaoTextoUser{
+    font-size: 1rem;
+    font-family: "League Spartan", sans-serif;
+}

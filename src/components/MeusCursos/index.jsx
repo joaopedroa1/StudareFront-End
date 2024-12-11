@@ -47,7 +47,7 @@ export const MeusCursos = () =>{
                         <div className="cursoFotoDisplay"><img className='fotoCursoDisplay' src={python} alt="" /></div>
                         <div className="caracteristicasCurso">
                             <h1 className="nomeCursoDisplay">Curso de Python</h1>
-                            <h1 className="caracCursoDisplay">Curso completo de Python, abordando <br /> a linguagem e sua relação fundamental <br /> com o banco de dados.</h1>
+                            <h1 className="caracCursoDisplay">Curso completo de Python.</h1>
                             <h1 className="cargaHorariaCurso">Carga horária: 200</h1>
                         </div>
                     </div>
