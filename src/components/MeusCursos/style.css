@@ -24,6 +24,8 @@
 .caracCursoDisplay{
     color: black;
     font-family: "League Spartan", sans-serif;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     font-size: 1.5rem;
 }
 
@@ -41,4 +43,13 @@
 
 .caracteristicasCurso{
     padding-left: 1rem;
+}
+
+.tagCurso_d{
+        font-family: "League Spartan", sans-serif;
+        font-size: 1.2rem;
+        border-radius: .8rem;
+        padding: .5rem;
+        background-color: rgb(194, 194, 194);
+        height: 2rem;
 }

@@ -164,3 +164,30 @@
   width: 20vw;
 
 }
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tagItem {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.removeTagButton {
+  background: none;
+  border: none;
+  color: #dd2525;
+  font-size: 1rem;
+  cursor: pointer;
+}

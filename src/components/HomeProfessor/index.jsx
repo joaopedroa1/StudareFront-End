@@ -49,18 +49,18 @@ export const HomeProfessor = () =>{
                         <div className="quadradosInfo">
                             <div className="linhaQuadrados">
                                 <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">18 Cursos adicionados</h1>
+                                    <h1 className="avaliacaoTextoDois">0 Cursos adicionado</h1>
                                 </div>
                                 <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">20 avaliações</h1>
+                                    <h1 className="avaliacaoTextoDois">0 avaliações</h1>
                                 </div>
                             </div>
                             <div className="linhaQuadrados">
                                 <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">12 Cursos favoritados</h1>
+                                    <h1 className="avaliacaoTextoDois">0 Cursos favoritados</h1>
                                 </div>
                                 <div className="quadradoInfoNum">
-                                    <h1 className="avaliacaoTextoDois">2 Rascunhos</h1>
+                                    <h1 className="avaliacaoTextoDois">0 Rascunhos</h1>
                                 </div>
                             </div>
                         </div>

@@ -18,6 +18,12 @@ export const CursoDetalhesHTML = () =>{
                         <h1 className='nomeCursoDestaques'>Curso HTML</h1>
                         <button className='avalie'>Avalie</button>
                     </div>
+                    <div className="tagsCursoDetalhes">
+                        <h1 className='tagCurso'>#Programação</h1>
+                        <h1 className='tagCurso'>#Design</h1>
+                        <h1 className="tagCurso">#Fácil e simples</h1>
+                        <h1 className="tagCurso">#Completo</h1>
+                    </div>
                     <h1 className="resumo">Resumo do curso</h1>
                     <p className='resumoCursoTexto'>Curso de programação completo HTML e CSS, do básico ao avançado.</p>
                     <div className="avaliacoesDetalhes">

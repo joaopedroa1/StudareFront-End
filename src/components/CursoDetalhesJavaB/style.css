@@ -1,3 +1,20 @@
 .avaliacoesDoCurso{
     padding-top: 1.5rem;
 }
+
+.tagsCursoDetalhes{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: .5rem;
+    display: flex;
+    width: 80rem;
+    height: 20rem;
+}
+
+.tagCurso{
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.2rem;
+    border-radius: .8rem;
+    padding: .5rem;
+    background-color: rgb(194, 194, 194);
+}

@@ -49,6 +49,11 @@ export const MeusCursos = () =>{
                             <h1 className="nomeCursoDisplay">Curso de Python</h1>
                             <h1 className="caracCursoDisplay">Curso completo de Python.</h1>
                             <h1 className="cargaHorariaCurso">Carga horária: 200</h1>
+                            <div className="tagsCursoDetalhes">
+                                <h1 className='tagCurso_d'>#Python</h1>
+                                <h1 className='tagCurso_d'>#Programação</h1>
+                                <h1 className="tagCurso_d">#Barato</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
